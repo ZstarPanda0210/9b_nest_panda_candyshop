@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#contact{
+    width: 100vw;
+    height: 5vh;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+}
+p{
+    color: white;
+    font-family: 'Zeyada', cursive;
+    font-size: 30px;
+}
