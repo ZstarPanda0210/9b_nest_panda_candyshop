@@ -1,0 +1,38 @@
+.body{
+    margin: 0%;
+    padding: 0%;
+}
+.parents{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, purple, blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sign_up{
+    width: 20%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+.email{
+    width: auto;
+    height: 10%;
+}
+.password{
+    width: auto;
+    height: 10%;
+}
+.repass{
+    width: auto;
+    height: 10%;
+}
+.button{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}

@@ -1,0 +1,62 @@
+.body{
+    padding: 0%;
+    margin: 0%;
+}
+.parent{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, purple, blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text1{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text2{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text3{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text4{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text5{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.suppor_us{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    width: 20%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

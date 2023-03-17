@@ -1,0 +1,41 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.parents{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, purple, blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.log_in{
+    width: 20%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+.email{
+    width: auto;
+    height: 10%;
+}
+.password{
+    width: auto;
+    height: 10%;
+}
+.forget{
+    width: auto;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.button{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}

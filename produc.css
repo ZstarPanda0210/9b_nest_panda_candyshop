@@ -1,0 +1,159 @@
+.body{
+    margin: 0%;
+    padding: 0%;
+}
+.parent{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, purple, blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.line1{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.line2{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.line3{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.a11{
+    width: 12%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.a12{
+    width: 12%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.a13{
+    width: 12%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.a14{
+    width: 12%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.a15{
+    width: 12%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.a16{
+    width: 12%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.a17{
+    width: 12%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.a21{
+    width: 12%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.a22{
+    width: 12%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.a23{
+    width: 12%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.a24{
+    width: 12%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.a25{
+    width: 12%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.a26{
+    width: 12%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.a27{
+    width: 12%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.a31{
+    width: 12%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.a32{
+    width: 12%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.a33{
+    width: 12%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.a34{
+    width: 12%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.a35{
+    width: 12%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.a36{
+    width: 12%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.a37{
+    width: 12%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
