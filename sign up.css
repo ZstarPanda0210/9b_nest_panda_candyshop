@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .body{
     margin: 0%;
     padding: 0%;
@@ -5,11 +9,11 @@
 .parents{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to right, purple, blue);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: burlywood;
 }
 .sign_up{
     width: 20%;
@@ -35,4 +39,15 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+}
+#stepparent{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: pink;
+    border-radius: 50px;
+    border: floralwhite solid 10px;
 }
