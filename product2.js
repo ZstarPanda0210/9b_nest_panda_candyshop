@@ -8,7 +8,7 @@ const products = [
         "https://thumbs.dreamstime.com/b/colorful-candy-background-8939634.jpg",
     },
     {
-      name: "",
+      name: "Skittles",
       price: 1200,
       description: "Candy",
       type: "gummy",
@@ -16,7 +16,7 @@ const products = [
         "https://thumbs.dreamstime.com/b/colorful-candy-background-8939634.jpg",
     },
     {
-      name: "candyThree",
+      name: "Snickers",
       price: 2300,
       description: "Candy",
       type: "chocolate",
@@ -39,6 +39,47 @@ const products = [
       image:
         "https://thumbs.dreamstime.com/b/colorful-candy-background-8939634.jpg",
     },
+    //const products = [
+      {
+        name: "Air heads",
+        price: 1000,
+        description: "Candy",
+        type: "chocolate",
+        image:
+          "https://thumbs.dreamstime.com/b/colorful-candy-background-8939634.jpg",
+      },
+      {
+        name: "",
+        price: 1200,
+        description: "Candy",
+        type: "gummy",
+        image:
+          "https://thumbs.dreamstime.com/b/colorful-candy-background-8939634.jpg",
+      },
+      {
+        name: "candyThree",
+        price: 2300,
+        description: "Candy",
+        type: "chocolate",
+        image:
+          "https://thumbs.dreamstime.com/b/colorful-candy-background-8939634.jpg",
+      },
+      {
+        name: "candyFour",
+        price: 550,
+        description: "Candy",
+        type: "gummy",
+        image:
+          "https://thumbs.dreamstime.com/b/colorful-candy-background-8939634.jpg",
+      },
+      {
+        name: "candyFive",
+        price: 3200,
+        description: "Candy",
+        type: "chocolate",
+        image:
+          "https://thumbs.dreamstime.com/b/colorful-candy-background-8939634.jpg",
+      },
   ];
   
   function PrintProducts() {
