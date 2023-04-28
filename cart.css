@@ -1,0 +1,24 @@
+.cart {
+	border: 1px solid black;
+	padding: 10px;
+	width: 300px;
+}
+
+.cart h2 {
+	margin-top: 0;
+}
+
+.cart-items {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.cart-items li {
+	margin-bottom: 5px;
+}
+
+.total {
+	margin-top: 10px;
+	font-weight: bold;
+}
