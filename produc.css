@@ -18,21 +18,21 @@
 }
 .line1{
     width: 100%;
-    height: 30%;
+    height: 40%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .line2{
     width: 100%;
-    height: 30%;
+    height: 40%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .line3{
     width: 100%;
-    height: 30%;
+    height: 40%;
     display: flex;
     justify-content: space-around;
     align-items: center;

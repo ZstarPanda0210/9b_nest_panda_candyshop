@@ -29,9 +29,6 @@
         <div class="about">
            <a href="about us.html">About us</a>
         </div>
-        <div class="search">
-          <i class="fa fa-search fa-3x" aria-hidden="true"></i>
-        </div>
         <div class="profile">
           <a style href="profile.html">
           <i class="fa fa-user fa-3x" aria-hidden="true"></i>
@@ -44,7 +41,28 @@
         </div>
       </div>
       <div class="brand">
-        <h1>Brand</h1>
+        <head>    
+          <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">                  
+      </head>
+      <body>
+          <div class="input-box">
+              <input type="text" placeholder="Search...">
+              <span class="icon">
+                  <i class="uil uil-search search-icon"></i>
+              </span>
+              <i class="uil uil-times close-icon"></i>
+          </div>
+  
+          <script>
+              let inputBox = document.querySelector(".input-box"),
+                  searchIcon = document.querySelector(".icon"),
+                  closeIcon = document.querySelector(".close-icon");
+  
+              searchIcon.addEventListener("click", () => inputBox.classList.add("open"));
+              closeIcon.addEventListener("click", () => inputBox.classList.remove("open"));
+          </script>
+          
+      </body>
       </div>
       <div class="mid">
         <h1>Welcome to Panda's
