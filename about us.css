@@ -9,7 +9,7 @@
 .parent{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to right, rgb(255, 192, 203), rgb(117, 105, 105));
+    background-color: pink;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,35 +17,35 @@
 }
 .text1{
     width: 100%;
-    height: 20%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .text2{
     width: 100%;
-    height: 20%;
+    height: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .text3{
     width: 100%;
-    height: 20%;
+    height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .text4{
     width: 100%;
-    height: 20%;
+    height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .text5{
     width: 100%;
-    height: 20%;
+    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,4 +64,10 @@
     justify-content: space-around;
     align-items: center;
     
+}
+.backtohomebutton{
+    width: 100%;
+    height: 100%;
+    justify-content: start;
+    align-items: start ;
 }

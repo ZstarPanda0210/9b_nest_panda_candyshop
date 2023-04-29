@@ -10,6 +10,12 @@
     flex-direction: column;
     justify-content: space-around;
 }
+.backtohomebutton{
+    width: 100%;
+    height: 100%;
+    justify-content: start;
+    align-items: start ;
+}
 .line1{
     width: 100%;
     height: 30%;

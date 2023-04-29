@@ -1,18 +1,94 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Shopping Cart</title>
-	<link rel="stylesheet" type="text/css" href="./cart.css">
-</head>
-<body>
-	<div class="cart">
-		<h2>Shopping Cart</h2>
-		<ul class="cart-items">
-			<li>Item 1 - $10</li>
-			<li>Item 2 - $15</li>
-			<li>Item 3 - $20</li>
-		</ul>
-		<p class="total">Total: $45</p>
-	</div>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: pink;
+      }
+      h1 {
+        text-align: center;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      }
+      /* Shopping cart list */
+      .cart {
+        margin-top: 30px;
+      }
+      .cart table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      .cart th,
+      .cart td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      .cart th {
+        background-color: #f2f2f2;
+      }
+      .cart td.quantity {
+        text-align: center;
+      }
+      .cart td.price {
+        text-align: right;
+      }
+      /* Total section */
+      .total {
+        margin-top: 20px;
+        text-align: right;
+      }
+      .total label {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Shopping Cart</h1>
+      <div class="cart">
+        <table>
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Product 1</td>
+              <td class="price">$19.99</td>
+              <td class="quantity">1</td>
+              <td class="price">$19.99</td>
+            </tr>
+            <tr>
+              <td>Product 2</td>
+              <td class="price">$29.99</td>
+              <td class="quantity">2</td>
+              <td class="price">$59.98</td>
+            </tr>
+            <tr>
+              <td>Product 3</td>
+              <td class="price">$9.99</td>
+              <td class="quantity">3</td>
+              <td class="price">$29.97</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="total">
+          <label>Total:</label> $109.94
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
