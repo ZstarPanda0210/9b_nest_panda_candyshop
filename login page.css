@@ -58,7 +58,7 @@ body{
     width: 190px;
     padding: 1.9rem 1.2rem;
     text-align: center;
-    background: #2a2b38;
+    background: peachpuff;
    }
    
    /*Inputs*/
@@ -68,7 +68,7 @@ body{
     align-items: center;
     justify-content: center;
     gap: .5em;
-    background-color: #1f2029;
+    background-color: rgb(0, 0, 0);
     border-radius: 4px;
     padding: .5em 1em;
    }
