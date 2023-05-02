@@ -120,28 +120,28 @@ const products = [
         "https://www.pngmart.com/files/10/Chupa-Chups-Lollipop-PNG-Image.png",
     },
     {
-      name: "Twixx",
+      name: "Haribo",
       price: 2100,
       description: "Candy",
       type: "chocolate",
       image:
-        "https://www.pngplay.com/wp-content/uploads/15/Twix-Cookie-Bars-Transparent-File.png",
+        "https://assets.stickpng.com/images/60159cac5cc23e000407ba35.png",
     },
     {
-      name: "Twixx",
+      name: "Mars",
       price: 2100,
       description: "Candy",
       type: "chocolate",
       image:
-        "https://www.pngplay.com/wp-content/uploads/15/Twix-Cookie-Bars-Transparent-File.png",
+        "https://assets.stickpng.com/images/58d2a68cdc164e9dd9e668ee.png",
     },
     {
-      name: "Twixx",
+      name: "Reese's cups",
       price: 2100,
       description: "Candy",
       type: "chocolate",
       image:
-        "https://www.pngplay.com/wp-content/uploads/15/Twix-Cookie-Bars-Transparent-File.png",
+        "https://assets.stickpng.com/thumbs/58d2a5fedc164e9dd9e668e3.png",
     },
   ];
   function PrintProducts() {

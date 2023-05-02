@@ -31,6 +31,12 @@ height: auto;
     display: flex;
     background-color: pink;
 }
+.backtohomebutton{
+    width: 100%;
+    height: 100%;
+    justify-content: start;
+    align-items: start ;
+}
 #products{
     height: 100% ;
     width: 100%;
