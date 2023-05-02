@@ -71,3 +71,7 @@ height: auto;
     width: 100vw;
     height: 5px;
 }
+.button{
+    height: 25%;
+    width: 50%;
+}
