@@ -73,7 +73,7 @@ const products = [
     },
     {
       name: "Sour Patch",
-      price: 2100,
+      price: 2000,
       description: "sour type of candy",
       type: "",
       image:
@@ -81,7 +81,7 @@ const products = [
     },
     {
       name: "Juicy Drop",
-      price: 2100,
+      price: 1000,
       description: "liquid,sour type of candy",
       type: "chocolate",
       image:
@@ -89,7 +89,7 @@ const products = [
     },
     {
       name: "Jolly Ranchers",
-      price: 2100,
+      price: 3500,
       description: "Candy",
       type: "chocolate",
       image:
@@ -97,7 +97,7 @@ const products = [
     },
     {
       name: "Hershey's",
-      price: 2100,
+      price: 3000,
       description: "milk chocolate",
       type: "milk chocolate",
       image:
@@ -113,7 +113,7 @@ const products = [
     },
     {
       name: "Chupa Chups",
-      price: 2100,
+      price: 1200,
       description: "Lollipop",
       type: "chocolate",
       image:
@@ -121,7 +121,7 @@ const products = [
     },
     {
       name: "Haribo",
-      price: 2100,
+      price: 1500,
       description: "Candy",
       type: "chocolate",
       image:
@@ -129,7 +129,7 @@ const products = [
     },
     {
       name: "Mars",
-      price: 2100,
+      price: 2500,
       description: "Candy",
       type: "chocolate",
       image:
@@ -137,7 +137,7 @@ const products = [
     },
     {
       name: "Reese's cups",
-      price: 2100,
+      price: 2200,
       description: "Candy",
       type: "chocolate",
       image:
