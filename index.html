@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
+
     <div class="parent">
       <div class="head">
         <div class="candy_shop">
@@ -44,25 +45,20 @@
         <head>    
           <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">                  
       </head>
-      <body>
-          <div class="input-box">
-              <input type="text" placeholder="Search...">
-              <span class="icon">
-                  <i class="uil uil-search search-icon"></i>
-              </span>
-              <i class="uil uil-times close-icon"></i>
-          </div>
-  
-          <script>
-              let inputBox = document.querySelector(".input-box"),
-                  searchIcon = document.querySelector(".icon"),
-                  closeIcon = document.querySelector(".close-icon");
-  
-              searchIcon.addEventListener("click", () => inputBox.classList.add("open"));
-              closeIcon.addEventListener("click", () => inputBox.classList.remove("open"));
-          </script>
-          
-      </body>
+      <div class="dropdown">
+        <button class="dropbtn">suggestion
+        </button>
+        <div style="width:100%" class="dropdown-content">
+          <a href="#">Snickers</a>
+          <a href="#">Air heads</a>
+          <a href="#">Kit Kat</a>
+          <a href="#">Twix</a>
+          <a href="#">Haribo</a>
+          <a href="#">Mars</a>
+          <a href="#">Chupa Chups</a>
+          <a href="#">Jolly ranchers</a>
+        </div>
+      </div>
       </div>
       <div class="mid">
         <h1>Welcome to Panda's

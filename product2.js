@@ -13,7 +13,7 @@ const products = [
       description: "Candy",
       type: "gummy",
       image:
-        "https://assets.stickpng.com/images/601bc05545dd950004124ba2.png",
+        "https://assets.stickpng.com/thumbs/601bc05545dd950004124ba2.png",
     },
     {
       name: "Pop Rocks",
@@ -61,7 +61,7 @@ const products = [
       description: "rock type of candy",
       type: "rock",
       image:
-        "https://assets.stickpng.com/thumbs/6016ee353e22aa0004b22d49.png",
+        "https://www.nerdscandy.com/sites/default/files/2022-06/nerds_rainbow.png",
     },
     {
       name: "Star Burst",
@@ -77,7 +77,7 @@ const products = [
       description: "sour type of candy",
       type: "",
       image:
-        "https://assets.stickpng.com/images/601592dc5cc23e000407ba22.png",
+        "https://images.contentstack.io/v3/assets/bltbb619fd5c667ba2d/bltf7f1264eea07e4b7/60ad78c84adeb65c03d76eed/Sour_Patch_Kids_Watermelon_1800X1800_transparent.png",
     },
     {
       name: "Juicy Drop",
@@ -125,7 +125,7 @@ const products = [
       description: "Candy",
       type: "chocolate",
       image:
-        "https://assets.stickpng.com/images/60159cac5cc23e000407ba35.png",
+        "https://cdn11.bigcommerce.com/s-f8tgd9j/images/stencil/1280x1280/products/140/5438/haribo_gold_bears_4oz_bag__62602.1525119458.png?c=2",
     },
     {
       name: "Mars",
@@ -133,7 +133,7 @@ const products = [
       description: "Candy",
       type: "chocolate",
       image:
-        "https://assets.stickpng.com/images/58d2a68cdc164e9dd9e668ee.png",
+        "https://upload.wikimedia.org/wikipedia/commons/d/de/Mars.png",
     },
     {
       name: "Reese's cups",
@@ -141,7 +141,7 @@ const products = [
       description: "Candy",
       type: "chocolate",
       image:
-        "https://assets.stickpng.com/thumbs/58d2a5fedc164e9dd9e668e3.png",
+        "https://pngimg.com/d/chupa_chups_PNG21.png",
     },
   ];
   function PrintProducts() {
@@ -229,3 +229,11 @@ const products = [
       .join("");
     basketDiv.innerHTML = basketHtml;
   }
+  const totalValue = document.querySelector('.total-value');
+
+function updateTotalValue(newValue) {
+  totalValue.textContent = `$${newValue.toFixed(2)}`;
+}
+
+
+updateTotalValue(100.50);

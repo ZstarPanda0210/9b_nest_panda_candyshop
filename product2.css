@@ -71,7 +71,22 @@ height: auto;
     width: 100vw;
     height: 5px;
 }
-.button{
+.basket{
     height: 25%;
-    width: 50%;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
 }
+.total-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .total-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+    margin-top: 10px;
+  }
+  

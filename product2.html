@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Purchase</title>
-    <link rel="stylesheet" href="./product2.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="product2.js"></script>
-  </head>
-  <body>
-    <div class="body">
-      <div class="backtohomebutton">
-        <a href="index.html"> <i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i>
-        </a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Purchase</title>
+  <link rel="stylesheet" href="./product2.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="product2.js"></script>
+</head>
+
+<body>
+  <div class="body">
+    <div class="backtohomebutton">
+      <a href="index.html"> <i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i>
+      </a>
     </div>
-    </div>
-    <div id="products" ></div>
-    <div id="basket"></div>
+  </div>
+  <div id="products"></div>
+  <div id="basket"></div>
+  <div id="line"></div>
+  <p id="total">
     <button onclick="Purchase()">purchase</button>
-    <div id="line"></div>
-    <p id="total"></p>
-  </body>
+  </p>
+  <div class="total-container">
+    <h2>Your Total</h2>
+    <div class="total-value">
+      $0.00
+    </div>
+  </div>
+<script src="./index.js"></script>
+</body>
+
 </html>
